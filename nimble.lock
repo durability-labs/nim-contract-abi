@@ -2,19 +2,19 @@
   "version": 2,
   "packages": {
     "nimcrypto": {
-      "version": "0.6.2",
-      "vcsRevision": "dc07e3058c6904eef965394493b6ea99aa2adefc",
+      "version": "0.7.2",
+      "vcsRevision": "8085515e717b07e29de1ef50d5e9f15a3f6004c0",
       "url": "https://github.com/cheatfate/nimcrypto",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
-        "sha1": "8e3e42530f54c8c312942a89640b7e0f687f33a5"
+        "sha1": "8ed2a20f2efaa08782bb871284cbcc3100ca1dea"
       }
     },
     "questionable": {
       "version": "0.10.15",
       "vcsRevision": "82d90b67bcfb7f2e918b61dace2ff1a4ced60935",
-      "url": "https://github.com/markspanbroek/questionable",
+      "url": "https://github.com/codex-storage/questionable",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
@@ -22,28 +22,28 @@
       }
     },
     "results": {
-      "version": "0.5.0",
-      "vcsRevision": "57b2392ad69849e3e2d02b74a8a0feee2c3d9570",
+      "version": "0.5.1",
+      "vcsRevision": "df8113dda4c2d74d460a8fa98252b0b771bf1f27",
       "url": "https://github.com/arnetheduck/nim-results",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
-        "sha1": "901e2ed088160fdcb8fdf3b315ce62baedc3f7ba"
+        "sha1": "a9c011f74bc9ed5c91103917b9f382b12e82a9e7"
       }
     },
     "unittest2": {
-      "version": "0.2.3",
-      "vcsRevision": "845b6af28b9f68f02d320e03ad18eccccea7ddb9",
+      "version": "0.2.4",
+      "vcsRevision": "8b51e99b4a57fcfb31689230e75595f024543024",
       "url": "https://github.com/status-im/nim-unittest2",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
-        "sha1": "6936b4e4676c9b37537d93f31cb8fc46f4ebaacb"
+        "sha1": "746106a4dfefffce497f1693733f1c1513b5c62c"
       }
     },
     "stew": {
-      "version": "0.2.0",
-      "vcsRevision": "79e4fa5a9d3374db17ed63622714d3e1094c7f34",
+      "version": "0.4.1",
+      "vcsRevision": "e5740014961438610d336cd81706582dbf2c96f0",
       "url": "https://github.com/status-im/nim-stew",
       "downloadMethod": "git",
       "dependencies": [
@@ -51,12 +51,12 @@
         "unittest2"
       ],
       "checksums": {
-        "sha1": "26d477c735913b7daa1dab53dd74803c88209634"
+        "sha1": "996d9c058ee078d0209a5f539424a0235683918c"
       }
     },
     "stint": {
-      "version": "0.8.1",
-      "vcsRevision": "1a2c661e3f50ff696b0b6692fab0d7bb2abf10cc",
+      "version": "0.8.2",
+      "vcsRevision": "470b7892561b5179ab20bd389a69217d6213fe58",
       "url": "https://github.com/status-im/nim-stint",
       "downloadMethod": "git",
       "dependencies": [
@@ -64,7 +64,7 @@
         "unittest2"
       ],
       "checksums": {
-        "sha1": "fe3c8b7b0484135294b8fb3dab5b1a030a08bddc"
+        "sha1": "d8f871fd617e7857192d4609fe003b48942a8ae5"
       }
     },
     "upraises": {
