@@ -1,6 +1,5 @@
 import std/typetraits
 import pkg/stint
-import pkg/upraises
 import pkg/stew/byteutils
 import pkg/stew/endians2
 import ./integers
@@ -9,7 +8,7 @@ import ./address
 export stint
 export address
 
-push: {.upraises:[].}
+{.push raises:[].}
 
 type
   AbiEncoder* = object

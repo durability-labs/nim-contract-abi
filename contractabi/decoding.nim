@@ -3,7 +3,6 @@ import pkg/stint
 import pkg/stew/endians2
 import pkg/stew/byteutils
 import pkg/questionable/results
-import pkg/upraises
 import ./encoding
 import ./integers
 import ./address
@@ -11,7 +10,7 @@ import ./address
 export stint
 export address
 
-push: {.upraises:[].}
+{.push raises:[].}
 
 type
   AbiDecoder* = object

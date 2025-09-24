@@ -1,8 +1,7 @@
 import pkg/stew/byteutils
 import pkg/questionable
-import pkg/upraises
 
-push: {.upraises: [].}
+{.push raises:[].}
 
 type
   Address* = distinct array[20, byte]

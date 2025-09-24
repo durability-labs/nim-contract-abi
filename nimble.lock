@@ -66,16 +66,6 @@
       "checksums": {
         "sha1": "d8f871fd617e7857192d4609fe003b48942a8ae5"
       }
-    },
-    "upraises": {
-      "version": "0.1.0",
-      "vcsRevision": "d9f268db1021959fe0f2c7a5e49fba741f9932a0",
-      "url": "https://github.com/markspanbroek/upraises",
-      "downloadMethod": "git",
-      "dependencies": [],
-      "checksums": {
-        "sha1": "176234f808b44a0be763df706ed634d6e8df17bb"
-      }
     }
   },
   "tasks": {}
