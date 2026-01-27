@@ -84,10 +84,10 @@ suite "custom types":
     check AbiDecoder.decode(encoding, Custom2) == success custom2
 
   test "fail when finishTuple() is missing":
-    expect Exception:
+    expect AssertionDefect:
       discard AbiEncoder.encode(custom3)
     let encoding = AbiEncoder.encode( (custom3.a, custom3.b) )
-    expect Exception:
+    expect AssertionDefect:
       discard AbiDecoder.decode(encoding, Custom3)
 
   test "generic decode works":
