@@ -52,8 +52,10 @@ suite "ABI encoding":
   test "encodes stints":
     let uint256 = UInt256.example
     let uint128 = UInt128.example
+    let uint96 = StUInt[96].example
     check AbiEncoder.encode(uint256) == @(uint256.toBytesBE)
     check AbiEncoder.encode(uint128) == 16.zeroes & @(uint128.toBytesBE)
+    check AbiEncoder.encode(uint96) == 20.zeroes & @(uint96.toBytesBE)
     check AbiEncoder.encode(1.i256) == 31.zeroes & 0x01'u8
     check AbiEncoder.encode(1.i128) == 31.zeroes & 0x01'u8
     check AbiEncoder.encode(-1.i256) == 0xFF'u8.repeat(32)

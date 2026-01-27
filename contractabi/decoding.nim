@@ -23,7 +23,6 @@ type
   Padding = enum
     padLeft,
     padRight
-  UInt = SomeUnsignedInt | StUint
   Int = SomeSignedInt | StInt
 
 func read*(decoder: var AbiDecoder, T: type): ?!T
@@ -81,8 +80,11 @@ func read(decoder: var AbiDecoder, amount: int, padding=padLeft): ?!seq[byte] =
   if padding == padRight:
     ?decoder.skipPadding(padlen)
 
-func decode(decoder: var AbiDecoder, T: type UInt): ?!T =
+func decode(decoder: var AbiDecoder, T: type SomeUnsignedInt): ?!T =
   success T.fromBytesBE(?decoder.read(sizeof(T)))
+
+func decode(decoder: var AbiDecoder, T: type StUint): ?!T =
+  success T.fromBytesBE(?decoder.read(T.bits div 8))
 
 func decode(decoder: var AbiDecoder, T: type Int): ?!T =
   let unsigned = ?decoder.read(T.unsigned)

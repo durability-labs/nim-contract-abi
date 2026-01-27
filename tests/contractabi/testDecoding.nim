@@ -87,6 +87,10 @@ suite "ABI decoding":
     checkDecode(UInt256)
     checkDecode(Int128)
     checkDecode(Int256)
+    checkDecode(StUint[96])
+    checkDecode(StUint[40])
+    checkDecode(StInt[96])
+    checkDecode(StInt[40])
 
   test "decodes addresses":
     checkDecode(Address.example)
