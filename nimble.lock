@@ -55,16 +55,16 @@
       }
     },
     "stint": {
-      "version": "0.8.2",
-      "vcsRevision": "470b7892561b5179ab20bd389a69217d6213fe58",
-      "url": "https://github.com/status-im/nim-stint",
+      "version": "0.8.2.1",
+      "vcsRevision": "7f83a754d5c72f927baff5cdd79013666d389ff7",
+      "url": "https://github.com/durability-labs/nim-stint",
       "downloadMethod": "git",
       "dependencies": [
         "stew",
         "unittest2"
       ],
       "checksums": {
-        "sha1": "d8f871fd617e7857192d4609fe003b48942a8ae5"
+        "sha1": "95df18724dbc5c01d64645ce72cd41af80e19ba5"
       }
     }
   },
