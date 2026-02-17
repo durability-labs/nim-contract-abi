@@ -55,8 +55,8 @@
       }
     },
     "stint": {
-      "version": "0.8.2.1",
-      "vcsRevision": "7f83a754d5c72f927baff5cdd79013666d389ff7",
+      "version": "0.8.3",
+      "vcsRevision": "baf249c5cbe2aec7dc766753f3b68f364d1e946a",
       "url": "https://github.com/durability-labs/nim-stint",
       "downloadMethod": "git",
       "dependencies": [
@@ -64,7 +64,7 @@
         "unittest2"
       ],
       "checksums": {
-        "sha1": "95df18724dbc5c01d64645ce72cd41af80e19ba5"
+        "sha1": "b1cccd006f708708b5970f8b8ff967a167d578a8"
       }
     }
   },
